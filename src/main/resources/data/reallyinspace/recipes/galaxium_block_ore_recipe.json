@@ -1,0 +1,13 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "reallyinspace:galaxium_block"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:galaxium_dust",
+    "count": 9
+  }
+}

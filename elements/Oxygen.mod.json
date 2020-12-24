@@ -1,0 +1,21 @@
+{
+  "_fv": 15,
+  "_type": "fluid",
+  "definition": {
+    "name": "Oxygen",
+    "textureStill": "foxtex",
+    "textureFlowing": "foxtex",
+    "luminosity": 0,
+    "density": 0,
+    "viscosity": 50,
+    "isGas": true,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:RIS"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

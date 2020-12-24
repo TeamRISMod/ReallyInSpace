@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "reallyinspace:blocks/ch14_planks",
+    "top": "reallyinspace:blocks/ch14_planks",
+    "side": "reallyinspace:blocks/ch14_planks"
+  }
+}

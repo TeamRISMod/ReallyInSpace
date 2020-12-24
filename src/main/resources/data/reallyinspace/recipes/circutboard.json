@@ -1,0 +1,37 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "reallyinspace:resistor"
+    },
+    {
+      "item": "minecraft:lime_concrete"
+    },
+    {
+      "item": "reallyinspace:capacitor"
+    },
+    {
+      "item": "reallyinspace:resistor"
+    },
+    {
+      "item": "reallyinspace:ic"
+    },
+    {
+      "item": "reallyinspace:capacitor"
+    },
+    {
+      "item": "reallyinspace:resistor"
+    },
+    {
+      "item": "minecraft:lime_concrete"
+    },
+    {
+      "item": "reallyinspace:capacitor"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:cboard",
+    "count": 5
+  }
+}

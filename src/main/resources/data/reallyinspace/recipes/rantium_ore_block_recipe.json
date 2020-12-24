@@ -1,0 +1,42 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "1": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "2": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "3": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "4": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "5": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "6": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "7": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "8": {
+      "item": "reallyinspace:rantium_dust"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:rantium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:martian_planks"
+    },
+    "3": {
+      "item": "reallyinspace:martian_planks"
+    },
+    "4": {
+      "item": "reallyinspace:martian_planks"
+    },
+    "6": {
+      "item": "reallyinspace:martian_planks"
+    },
+    "7": {
+      "item": "reallyinspace:martian_planks"
+    },
+    "8": {
+      "item": "reallyinspace:martian_planks"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:martian_stairs",
+    "count": 4
+  }
+}

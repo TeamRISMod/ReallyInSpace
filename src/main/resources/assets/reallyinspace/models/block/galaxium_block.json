@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reallyinspace:blocks/galaxium_ore_block",
+    "particle": "reallyinspace:blocks/galaxium_ore_block"
+  }
+}

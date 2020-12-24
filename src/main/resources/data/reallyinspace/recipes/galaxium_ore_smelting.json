@@ -1,0 +1,12 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "reallyinspace:galaxium_ore"
+  },
+  "result": {
+    "item": "reallyinspace:galaxium_dust"
+  }
+}

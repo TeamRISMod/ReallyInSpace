@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reallyinspace:blocks/ptex",
+    "up": "reallyinspace:blocks//ptex",
+    "north": "reallyinspace:blocks//ptex",
+    "east": "reallyinspace:blocks//ptex",
+    "south": "reallyinspace:blocks//ptex",
+    "west": "reallyinspace:blocks//ptex",
+    "particle": "reallyinspace:blocks/ptex"
+  }
+}

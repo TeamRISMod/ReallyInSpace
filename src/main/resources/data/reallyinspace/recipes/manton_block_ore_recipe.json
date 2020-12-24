@@ -1,0 +1,13 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "reallyinspace:manton_block"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:manton_ingot",
+    "count": 9
+  }
+}

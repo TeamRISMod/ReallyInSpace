@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reallyinspace:blocks/ch16_planks",
+    "particle": "reallyinspace:blocks/ch16_planks"
+  }
+}

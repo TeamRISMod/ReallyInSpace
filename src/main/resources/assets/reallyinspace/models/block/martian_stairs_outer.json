@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "reallyinspace:blocks/martian_planks",
+    "top": "reallyinspace:blocks/martian_planks",
+    "side": "reallyinspace:blocks/martian_planks"
+  }
+}

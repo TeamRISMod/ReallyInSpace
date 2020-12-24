@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="reallyinspace"
+version="1.4.0"
+displayName="ReallyInSpace Forge For 1.16x"
+credits="Help From my Patreons"
+displayURL="https://github.com/Team-ReallyInSpace/ReallyInSpace"
+authors="Souldbminer & Help From My Patreons"
+description='''
+16+ custom dimensions. adding more things soom
+'''
+
+[[dependencies.reallyinspace]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

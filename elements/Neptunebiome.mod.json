@@ -1,0 +1,65 @@
+{
+  "_fv": 15,
+  "_type": "biome",
+  "definition": {
+    "name": "Neptunebiome",
+    "groundBlock": {
+      "value": "Blocks.BLUE_ICE"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.PACKED_ICE"
+    },
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 1.0,
+    "temperature": -1.0,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "ICY",
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "Blocks.BUBBLE_COLUMN"
+    },
+    "treeBranch": {
+      "value": "Blocks.DOUBLE_PLANT#4"
+    },
+    "treeVines": {
+      "value": "Blocks.SANDSTONE_WALL"
+    },
+    "treeFruits": {
+      "value": "Blocks.LEAVES"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "snowy",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": true,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "COLD",
+    "defaultFeatures": [
+      "Caves"
+    ],
+    "spawnEntries": []
+  }
+}

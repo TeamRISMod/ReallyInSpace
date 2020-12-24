@@ -1,0 +1,26 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:ch_14_log"
+    },
+    "1": {
+      "item": "reallyinspace:ch_14_log"
+    },
+    "2": {
+      "item": "reallyinspace:ch_14_log"
+    },
+    "3": {
+      "item": "reallyinspace:ch_14_log"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:ch_14_wood",
+    "count": 3
+  }
+}

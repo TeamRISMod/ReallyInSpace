@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "reallyinspace:block/uranus_portal_ew"
+    },
+    "axis=x": {
+      "model": "reallyinspace:block/uranus_portal_ns"
+    }
+  }
+}

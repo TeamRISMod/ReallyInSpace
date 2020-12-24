@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reallyinspace:block/ch_15_slab"
+    },
+    "type=top": {
+      "model": "reallyinspace:block/ch_15_slab_top"
+    },
+    "type=double": {
+      "model": "reallyinspace:block/ch_15_slab_full"
+    }
+  }
+}

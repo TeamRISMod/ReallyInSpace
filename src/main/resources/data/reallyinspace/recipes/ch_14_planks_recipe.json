@@ -1,0 +1,13 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ch14_log"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:ch_14_planks",
+    "count": 4
+  }
+}

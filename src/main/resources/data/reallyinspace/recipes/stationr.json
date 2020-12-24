@@ -1,0 +1,16 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "reallyinspace:cboard"
+    },
+    {
+      "item": "reallyinspace:battery"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:nasa_statoion",
+    "count": 1
+  }
+}

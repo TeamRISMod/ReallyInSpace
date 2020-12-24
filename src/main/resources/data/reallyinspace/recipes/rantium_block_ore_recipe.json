@@ -1,0 +1,13 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "reallyinspace:rantium_block"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:rantium_dust",
+    "count": 9
+  }
+}

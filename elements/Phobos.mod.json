@@ -1,0 +1,56 @@
+{
+  "_fv": 15,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:MoonBiomes"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:MartianStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.BLUE_ICE"
+    },
+    "airColor": {
+      "value": -4138753,
+      "frgbvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "fvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "falpha": 1.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Portal"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Portaleffect"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Phobos Rocket",
+    "igniterTab": {
+      "value": "CUSTOM:RIS"
+    },
+    "texture": "igneiertextures",
+    "portalTexture": "t2bottom",
+    "enablePortal": true
+  }
+}

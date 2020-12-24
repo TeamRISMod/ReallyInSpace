@@ -1,0 +1,22 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:white_terracotta"
+    },
+    {
+      "item": "minecraft:white_terracotta"
+    },
+    {
+      "item": "minecraft:white_terracotta"
+    },
+    {
+      "item": "reallyinspace:cboard"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:battery",
+    "count": 1
+  }
+}

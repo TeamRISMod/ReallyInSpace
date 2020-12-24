@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Jupiter"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#1"
+    },
+    "fluidBlock": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#1"
+    },
+    "airColor": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Portal"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Portaleffect"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Jupiter Rocket",
+    "igniterTab": {
+      "value": "CUSTOM:RIS"
+    },
+    "texture": "igneiertextures",
+    "portalTexture": "jrock",
+    "enablePortal": true
+  }
+}

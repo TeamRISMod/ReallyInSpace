@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Resistor"
+      },
+      {
+        "value": "Blocks.CONCRETE#5"
+      },
+      {
+        "value": "CUSTOM:Capacitor"
+      },
+      {
+        "value": "CUSTOM:Resistor"
+      },
+      {
+        "value": "CUSTOM:IC"
+      },
+      {
+        "value": "CUSTOM:Capacitor"
+      },
+      {
+        "value": "CUSTOM:Resistor"
+      },
+      {
+        "value": "Blocks.CONCRETE#5"
+      },
+      {
+        "value": "CUSTOM:Capacitor"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cboard"
+    },
+    "name": "circutboard",
+    "namespace": "mod"
+  }
+}

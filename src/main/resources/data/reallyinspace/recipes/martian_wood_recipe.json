@@ -1,0 +1,26 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:martian_log"
+    },
+    "1": {
+      "item": "reallyinspace:martian_log"
+    },
+    "2": {
+      "item": "reallyinspace:martian_log"
+    },
+    "3": {
+      "item": "reallyinspace:martian_log"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:unknown_element",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reallyinspace:blocks/martian_planks",
+    "up": "reallyinspace:blocks//martian_planks",
+    "north": "reallyinspace:blocks//martian_planks",
+    "east": "reallyinspace:blocks//martian_planks",
+    "south": "reallyinspace:blocks//martian_planks",
+    "west": "reallyinspace:blocks//martian_planks",
+    "particle": "reallyinspace:blocks/martian_planks"
+  }
+}

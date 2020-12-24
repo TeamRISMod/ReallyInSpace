@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reallyinspace:blocks/rtabletex",
+    "particle": "reallyinspace:blocks/rtabletex"
+  }
+}

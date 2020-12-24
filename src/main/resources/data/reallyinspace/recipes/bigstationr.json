@@ -1,0 +1,19 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "reallyinspace:nasa_statoion"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "reallyinspace:cboard"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:nasabig_station",
+    "count": 1
+  }
+}

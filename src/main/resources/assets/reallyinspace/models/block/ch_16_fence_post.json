@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "reallyinspace:blocks/ch16_planks",
+    "particle": "reallyinspace:blocks/ch16_planks"
+  }
+}

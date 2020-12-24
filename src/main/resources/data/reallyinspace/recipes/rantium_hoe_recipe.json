@@ -1,0 +1,27 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "1": {
+      "item": "reallyinspace:rantium_dust"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:unknown_element",
+    "count": 1
+  }
+}
