@@ -2475,9 +2475,76 @@
         "eb": false,
         "ec": false
       }
+    },
+    {
+      "name": "Hammer",
+      "type": "tool",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer"
+    },
+    {
+      "name": "HammerProc",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OxygenStats",
+      "type": "keybind",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxygen_stats"
+    },
+    {
+      "name": "ReallyINSpacecustomelment",
+      "type": "tag",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "really_in_spacecustomelment"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "TradeCondition",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_gb": {
@@ -2668,6 +2735,7 @@
       "item.reallyinspace.star_finderitem": "Star Finder",
       "item.reallyinspace.mercdim": "Mercury Rocket",
       "item.ris.uranus": "Uranus Rocket",
+      "item.reallyinspace.hammer": "Hammer",
       "block.ris.galaxium_block": "Block of Galaxium",
       "block.ris.ch_14_fence_gate": "CH14 Fence Gate",
       "biome.reallyinspace.make_make_biome": "Make Make Biome",
@@ -2696,6 +2764,7 @@
       "item.reallyinspace.viral_mask_leggings": "Viral Mask Leggings",
       "biome.ris.moon_biomes": "Moon Biomes",
       "item.ris.mars": "Mars Rocket",
+      "key.mcreator.oxygen_stats": "Oxygen Stats",
       "advancements.the_heat_in_your_feet.title": "The Heat In Your Feet",
       "item.reallyinspace.viral_mask_chestplate": "Viral Mask Body",
       "biome.ris.moonbiome": "Moon biome",
@@ -2980,6 +3049,7 @@
       "item.reallyinspace.star_finderitem": "Star Finder",
       "item.reallyinspace.mercdim": "Mercury Rocket",
       "item.ris.uranus": "Uranus Rocket",
+      "item.reallyinspace.hammer": "Hammer",
       "block.ris.galaxium_block": "Block of Galaxium",
       "block.ris.ch_14_fence_gate": "CH14 Fence Gate",
       "biome.reallyinspace.make_make_biome": "Make Make Biome",
@@ -3008,6 +3078,7 @@
       "item.reallyinspace.viral_mask_leggings": "Viral Mask Leggings",
       "biome.ris.moon_biomes": "Moon Biomes",
       "item.ris.mars": "Mars Rocket",
+      "key.mcreator.oxygen_stats": "Oxygen Stats",
       "advancements.the_heat_in_your_feet.title": "The Heat In Your Feet",
       "item.reallyinspace.viral_mask_chestplate": "Viral Mask Body",
       "biome.ris.moonbiome": "Moon biome",
@@ -3292,6 +3363,7 @@
       "item.reallyinspace.star_finderitem": "Star Finder",
       "item.reallyinspace.mercdim": "Mercury Rocket",
       "item.ris.uranus": "Uranus Rocket",
+      "item.reallyinspace.hammer": "Hammer",
       "block.ris.galaxium_block": "Block of Galaxium",
       "block.ris.ch_14_fence_gate": "CH14 Fence Gate",
       "biome.reallyinspace.make_make_biome": "Make Make Biome",
@@ -3320,6 +3392,7 @@
       "item.reallyinspace.viral_mask_leggings": "Viral Mask Leggings",
       "biome.ris.moon_biomes": "Moon Biomes",
       "item.ris.mars": "Mars Rocket",
+      "key.mcreator.oxygen_stats": "Oxygen Stats",
       "advancements.the_heat_in_your_feet.title": "The Heat In Your Feet",
       "item.reallyinspace.viral_mask_chestplate": "Viral Mask Body",
       "biome.ris.moonbiome": "Moon biome",
@@ -3604,6 +3677,7 @@
       "item.reallyinspace.star_finderitem": "Star Finder",
       "item.reallyinspace.mercdim": "Mercury Rocket",
       "item.ris.uranus": "Uranus Rocket",
+      "item.reallyinspace.hammer": "Hammer",
       "block.ris.galaxium_block": "Block of Galaxium",
       "block.ris.ch_14_fence_gate": "CH14 Fence Gate",
       "biome.reallyinspace.make_make_biome": "Make Make Biome",
@@ -3632,6 +3706,7 @@
       "item.reallyinspace.viral_mask_leggings": "Viral Mask Leggings",
       "biome.ris.moon_biomes": "Moon Biomes",
       "item.ris.mars": "Mars Rocket",
+      "key.mcreator.oxygen_stats": "Oxygen Stats",
       "advancements.the_heat_in_your_feet.title": "The Heat In Your Feet",
       "item.reallyinspace.viral_mask_chestplate": "Viral Mask Body",
       "biome.ris.moonbiome": "Moon biome",
@@ -3916,6 +3991,7 @@
       "item.reallyinspace.star_finderitem": "Star Finder",
       "item.reallyinspace.mercdim": "Mercury Rocket",
       "item.ris.uranus": "Uranus Rocket",
+      "item.reallyinspace.hammer": "Hammer",
       "block.ris.galaxium_block": "Block of Galaxium",
       "block.ris.ch_14_fence_gate": "CH14 Fence Gate",
       "biome.reallyinspace.make_make_biome": "Make Make Biome",
@@ -3944,6 +4020,7 @@
       "item.reallyinspace.viral_mask_leggings": "Viral Mask Leggings",
       "biome.ris.moon_biomes": "Moon Biomes",
       "item.ris.mars": "Mars Rocket",
+      "key.mcreator.oxygen_stats": "Oxygen Stats",
       "advancements.the_heat_in_your_feet.title": "The Heat In Your Feet",
       "item.reallyinspace.viral_mask_chestplate": "Viral Mask Body",
       "biome.ris.moonbiome": "Moon biome",
@@ -4051,6 +4128,7 @@
     "license": "Apache License version 2.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "rket",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

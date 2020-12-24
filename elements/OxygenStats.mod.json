@@ -1,0 +1,9 @@
+{
+  "_fv": 15,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Y",
+    "keyBindingName": "Oxygen Stats",
+    "keyBindingCategoryKey": "reallyinspace"
+  }
+}
