@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "potion",
+  "definition": {
+    "name": "H 1 N 1",
+    "effectName": "H1N1 Virus",
+    "icon": "h1n1p.png",
+    "color": {
+      "value": -13369549,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

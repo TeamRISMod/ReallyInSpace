@@ -2535,6 +2535,95 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "really_in_spacecustomelment"
+    },
+    {
+      "name": "H1N1",
+      "type": "potion",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "h_1_n_1"
+    },
+    {
+      "name": "CraftDiamonds",
+      "type": "gui",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_diamonds"
+    },
+    {
+      "name": "CraftMask",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_mask",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenMaskMaker",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_mask_maker",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Craftmaskcmd",
+      "type": "command",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftmaskcmd"
     }
   ],
   "variable_elements": [
@@ -2555,6 +2644,7 @@
       "block.ris.martian_planks": "Martian Planks",
       "item.reallyinspace.ailen_spawn_egg": "Alien Spawn Egg",
       "biome.reallyinspace.uranusbiome": "Uranusbiome",
+      "item.minecraft.splash_potion.effect.h_1_n_1": "Splash H 1 N 1",
       "block.rismod.martian_log": "Martian Log",
       "item.reallyinspace.mars": "Mars Rocket",
       "biome.ris.venus": "Venus",
@@ -2562,8 +2652,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -2792,6 +2882,8 @@
       "block.spacecraftforge.martian_stairs": "Martian Stairs",
       "item.reallyinspace.galaxium_dust": "Galaxium",
       "item.ris.lander_spawn_egg": "Lander Spawn Egg",
+      "effect.h_1_n_1": "H1N1 Virus",
+      "item.minecraft.potion.effect.h_1_n_1": "H 1 N 1",
       "biome.rismod.mercfltbiomes": "MercFlatBiome",
       "block.ris.ch_16_fence_gate": "CH16 Fence Gate",
       "block.reallyinspace.martian_fence_gate": "Martian Fence Gate",
@@ -2815,6 +2907,7 @@
       "block.ris.nasabig_station": "NASA Big Station",
       "biome.rismod.marsflat": "Marsflat",
       "biome.reallyinspace.haumeaflat": "Haumeaflat",
+      "item.minecraft.lingering_potion.effect.h_1_n_1": "Lingering H 1 N 1",
       "block.reallyinspace.manton_block": "Block of Manton",
       "biome.reallyinspace.ceresbiome": "Ceresbiome",
       "block.ris.ch_14_planks": "CH14 Planks",
@@ -2843,6 +2936,7 @@
       "block.reallyinspace.ch_16_log": "CH16 Log",
       "item.reallyinspace.saturn": "Saturn Rocket",
       "biome.reallyinspace.astroids": "Astroids",
+      "item.minecraft.tipped_arrow.effect.h_1_n_1": "Arrow of H 1 N 1",
       "block.reallyinspace.ch_14_planks": "CH14 Planks",
       "item.ris.ailen_boss_spawn_egg": "Ailen Boss Spawn Egg",
       "block.ris.ch_15_leaves": "CH15 Leaves",
@@ -2869,6 +2963,7 @@
       "block.ris.martian_planks": "Martian Planks",
       "item.reallyinspace.ailen_spawn_egg": "Alien Spawn Egg",
       "biome.reallyinspace.uranusbiome": "Uranusbiome",
+      "item.minecraft.splash_potion.effect.h_1_n_1": "Splash H 1 N 1",
       "block.rismod.martian_log": "Martian Log",
       "item.reallyinspace.mars": "Mars Rocket",
       "biome.ris.venus": "Venus",
@@ -2876,8 +2971,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -3106,6 +3201,8 @@
       "block.spacecraftforge.martian_stairs": "Martian Stairs",
       "item.reallyinspace.galaxium_dust": "Galaxium",
       "item.ris.lander_spawn_egg": "Lander Spawn Egg",
+      "effect.h_1_n_1": "H1N1 Virus",
+      "item.minecraft.potion.effect.h_1_n_1": "H 1 N 1",
       "biome.rismod.mercfltbiomes": "MercFlatBiome",
       "block.ris.ch_16_fence_gate": "CH16 Fence Gate",
       "block.reallyinspace.martian_fence_gate": "Martian Fence Gate",
@@ -3129,6 +3226,7 @@
       "block.ris.nasabig_station": "NASA Big Station",
       "biome.rismod.marsflat": "Marsflat",
       "biome.reallyinspace.haumeaflat": "Haumeaflat",
+      "item.minecraft.lingering_potion.effect.h_1_n_1": "Lingering H 1 N 1",
       "block.reallyinspace.manton_block": "Block of Manton",
       "biome.reallyinspace.ceresbiome": "Ceresbiome",
       "block.ris.ch_14_planks": "CH14 Planks",
@@ -3157,6 +3255,7 @@
       "block.reallyinspace.ch_16_log": "CH16 Log",
       "item.reallyinspace.saturn": "Saturn Rocket",
       "biome.reallyinspace.astroids": "Astroids",
+      "item.minecraft.tipped_arrow.effect.h_1_n_1": "Arrow of H 1 N 1",
       "block.reallyinspace.ch_14_planks": "CH14 Planks",
       "item.ris.ailen_boss_spawn_egg": "Ailen Boss Spawn Egg",
       "block.ris.ch_15_leaves": "CH15 Leaves",
@@ -3183,6 +3282,7 @@
       "block.ris.martian_planks": "Martian Planks",
       "item.reallyinspace.ailen_spawn_egg": "Alien Spawn Egg",
       "biome.reallyinspace.uranusbiome": "Uranusbiome",
+      "item.minecraft.splash_potion.effect.h_1_n_1": "Splash H 1 N 1",
       "block.rismod.martian_log": "Martian Log",
       "item.reallyinspace.mars": "Mars Rocket",
       "biome.ris.venus": "Venus",
@@ -3190,8 +3290,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -3420,6 +3520,8 @@
       "block.spacecraftforge.martian_stairs": "Martian Stairs",
       "item.reallyinspace.galaxium_dust": "Galaxium",
       "item.ris.lander_spawn_egg": "Lander Spawn Egg",
+      "effect.h_1_n_1": "H1N1 Virus",
+      "item.minecraft.potion.effect.h_1_n_1": "H 1 N 1",
       "biome.rismod.mercfltbiomes": "MercFlatBiome",
       "block.ris.ch_16_fence_gate": "CH16 Fence Gate",
       "block.reallyinspace.martian_fence_gate": "Martian Fence Gate",
@@ -3443,6 +3545,7 @@
       "block.ris.nasabig_station": "NASA Big Station",
       "biome.rismod.marsflat": "Marsflat",
       "biome.reallyinspace.haumeaflat": "Haumeaflat",
+      "item.minecraft.lingering_potion.effect.h_1_n_1": "Lingering H 1 N 1",
       "block.reallyinspace.manton_block": "Block of Manton",
       "biome.reallyinspace.ceresbiome": "Ceresbiome",
       "block.ris.ch_14_planks": "CH14 Planks",
@@ -3471,6 +3574,7 @@
       "block.reallyinspace.ch_16_log": "CH16 Log",
       "item.reallyinspace.saturn": "Saturn Rocket",
       "biome.reallyinspace.astroids": "Astroids",
+      "item.minecraft.tipped_arrow.effect.h_1_n_1": "Arrow of H 1 N 1",
       "block.reallyinspace.ch_14_planks": "CH14 Planks",
       "item.ris.ailen_boss_spawn_egg": "Ailen Boss Spawn Egg",
       "block.ris.ch_15_leaves": "CH15 Leaves",
@@ -3497,6 +3601,7 @@
       "block.ris.martian_planks": "Martian Planks",
       "item.reallyinspace.ailen_spawn_egg": "Alien Spawn Egg",
       "biome.reallyinspace.uranusbiome": "Uranusbiome",
+      "item.minecraft.splash_potion.effect.h_1_n_1": "Splash H 1 N 1",
       "block.rismod.martian_log": "Martian Log",
       "item.reallyinspace.mars": "Mars Rocket",
       "biome.ris.venus": "Venus",
@@ -3504,8 +3609,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -3734,6 +3839,8 @@
       "block.spacecraftforge.martian_stairs": "Martian Stairs",
       "item.reallyinspace.galaxium_dust": "Galaxium",
       "item.ris.lander_spawn_egg": "Lander Spawn Egg",
+      "effect.h_1_n_1": "H1N1 Virus",
+      "item.minecraft.potion.effect.h_1_n_1": "H 1 N 1",
       "biome.rismod.mercfltbiomes": "MercFlatBiome",
       "block.ris.ch_16_fence_gate": "CH16 Fence Gate",
       "block.reallyinspace.martian_fence_gate": "Martian Fence Gate",
@@ -3757,6 +3864,7 @@
       "block.ris.nasabig_station": "NASA Big Station",
       "biome.rismod.marsflat": "Marsflat",
       "biome.reallyinspace.haumeaflat": "Haumeaflat",
+      "item.minecraft.lingering_potion.effect.h_1_n_1": "Lingering H 1 N 1",
       "block.reallyinspace.manton_block": "Block of Manton",
       "biome.reallyinspace.ceresbiome": "Ceresbiome",
       "block.ris.ch_14_planks": "CH14 Planks",
@@ -3785,6 +3893,7 @@
       "block.reallyinspace.ch_16_log": "CH16 Log",
       "item.reallyinspace.saturn": "Saturn Rocket",
       "biome.reallyinspace.astroids": "Astroids",
+      "item.minecraft.tipped_arrow.effect.h_1_n_1": "Arrow of H 1 N 1",
       "block.reallyinspace.ch_14_planks": "CH14 Planks",
       "item.ris.ailen_boss_spawn_egg": "Ailen Boss Spawn Egg",
       "block.ris.ch_15_leaves": "CH15 Leaves",
@@ -3811,6 +3920,7 @@
       "block.ris.martian_planks": "Martian Planks",
       "item.reallyinspace.ailen_spawn_egg": "Alien Spawn Egg",
       "biome.reallyinspace.uranusbiome": "Uranusbiome",
+      "item.minecraft.splash_potion.effect.h_1_n_1": "Splash H 1 N 1",
       "block.rismod.martian_log": "Martian Log",
       "item.reallyinspace.mars": "Mars Rocket",
       "biome.ris.venus": "Venus",
@@ -3818,8 +3928,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -4048,6 +4158,8 @@
       "block.spacecraftforge.martian_stairs": "Martian Stairs",
       "item.reallyinspace.galaxium_dust": "Galaxium",
       "item.ris.lander_spawn_egg": "Lander Spawn Egg",
+      "effect.h_1_n_1": "H1N1 Virus",
+      "item.minecraft.potion.effect.h_1_n_1": "H 1 N 1",
       "biome.rismod.mercfltbiomes": "MercFlatBiome",
       "block.ris.ch_16_fence_gate": "CH16 Fence Gate",
       "block.reallyinspace.martian_fence_gate": "Martian Fence Gate",
@@ -4071,6 +4183,7 @@
       "block.ris.nasabig_station": "NASA Big Station",
       "biome.rismod.marsflat": "Marsflat",
       "biome.reallyinspace.haumeaflat": "Haumeaflat",
+      "item.minecraft.lingering_potion.effect.h_1_n_1": "Lingering H 1 N 1",
       "block.reallyinspace.manton_block": "Block of Manton",
       "biome.reallyinspace.ceresbiome": "Ceresbiome",
       "block.ris.ch_14_planks": "CH14 Planks",
@@ -4099,6 +4212,7 @@
       "block.reallyinspace.ch_16_log": "CH16 Log",
       "item.reallyinspace.saturn": "Saturn Rocket",
       "biome.reallyinspace.astroids": "Astroids",
+      "item.minecraft.tipped_arrow.effect.h_1_n_1": "Arrow of H 1 N 1",
       "block.reallyinspace.ch_14_planks": "CH14 Planks",
       "item.ris.ailen_boss_spawn_egg": "Ailen Boss Spawn Egg",
       "block.ris.ch_15_leaves": "CH15 Leaves",
@@ -4125,10 +4239,10 @@
     "description": "16+ custom dimensions. adding more things soom",
     "author": "Souldbminer \u0026 Help From My Patreons",
     "websiteURL": "https://github.com/Team-ReallyInSpace/ReallyInSpace",
-    "license": "Apache License version 2.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "rket",
+    "modPicture": "modlogo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
