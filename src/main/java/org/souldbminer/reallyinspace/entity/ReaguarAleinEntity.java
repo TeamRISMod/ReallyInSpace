@@ -95,7 +95,7 @@ public class ReaguarAleinEntity extends ReallyinspaceModElements.ModElement {
 				return new MobRenderer(renderManager, new Modelalien(), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("reallyinspace:textures/al.png");
+						return new ResourceLocation("reallyinspace:textures/alein.png");
 					}
 				};
 			});

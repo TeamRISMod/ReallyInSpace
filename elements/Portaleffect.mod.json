@@ -2,7 +2,7 @@
   "_fv": 15,
   "_type": "particle",
   "definition": {
-    "texture": "ml.png",
+    "texture": "modlogo.png",
     "animate": false,
     "frameDuration": 1,
     "width": 0.2,

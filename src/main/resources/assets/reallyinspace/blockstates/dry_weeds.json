@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=1": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=2": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=3": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=4": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=5": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=6": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=7": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=8": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=9": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=10": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=11": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=12": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=13": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=14": {
+      "model": "reallyinspace:block/dry_weeds"
+    },
+    "age=15": {
+      "model": "reallyinspace:block/dry_weeds"
+    }
+  }
+}

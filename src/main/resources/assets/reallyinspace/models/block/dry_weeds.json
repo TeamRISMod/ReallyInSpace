@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reallyinspace:blocks/dryweedstex",
+    "particle": "reallyinspace:blocks/dryweedstex"
+  }
+}
