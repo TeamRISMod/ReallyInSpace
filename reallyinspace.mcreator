@@ -4258,15 +4258,17 @@
   "workspaceSettings": {
     "modid": "reallyinspace",
     "modName": "ReallyInSpace Forge For 1.16x",
-    "version": "1.4.0",
-    "description": "16+ custom dimensions. adding more things soom",
+    "version": "v2.0.0",
+    "description": "16lots of blocks + custom dimensions. adding more things soom",
     "author": "Souldbminer \u0026 Help From My Patreons",
-    "websiteURL": "https://github.com/Team-ReallyInSpace/ReallyInSpace",
+    "websiteURL": "https://github.com/TeamRISMod/ReallyInSpace",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "modlogo",
-    "requiredMods": [],
+    "requiredMods": [
+      "shutupexperimentalsettings"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
