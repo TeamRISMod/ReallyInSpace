@@ -1,0 +1,52 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Send Energy",
+          "width": 80,
+          "height": 20,
+          "name": "Send Energy",
+          "x": 169,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Battery",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Battery",
+          "x": 187,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<energy> / 400,000",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<energy> / 400,000",
+          "x": 163,
+          "y": 58
+        }
+      }
+    ]
+  }
+}

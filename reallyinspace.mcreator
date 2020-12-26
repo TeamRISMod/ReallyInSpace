@@ -2642,6 +2642,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dry_weeds"
+    },
+    {
+      "name": "EnergyBattery",
+      "type": "block",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_battery"
+    },
+    {
+      "name": "Ee",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bgui",
+      "type": "gui",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bgui"
     }
   ],
   "variable_elements": [
@@ -2670,8 +2717,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -2936,6 +2983,7 @@
       "block.rismod.martian_leaves": "Martian Leaves",
       "item.reallyinspace.centuri": "Centuri Rocket",
       "entity.ris.reaguar_alein": "Reaguar Alein",
+      "block.reallyinspace.energy_battery": "Energy Battery",
       "biome.ris.mercfltbiomes": "MercFlatBiome",
       "block.reallyinspace.ch_15_stairs": "CH15 Stairs",
       "block.ris.oxygen_tank": "Oxygen Tank",
@@ -2990,8 +3038,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -3256,6 +3304,7 @@
       "block.rismod.martian_leaves": "Martian Leaves",
       "item.reallyinspace.centuri": "Centuri Rocket",
       "entity.ris.reaguar_alein": "Reaguar Alein",
+      "block.reallyinspace.energy_battery": "Energy Battery",
       "biome.ris.mercfltbiomes": "MercFlatBiome",
       "block.reallyinspace.ch_15_stairs": "CH15 Stairs",
       "block.ris.oxygen_tank": "Oxygen Tank",
@@ -3310,8 +3359,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -3576,6 +3625,7 @@
       "block.rismod.martian_leaves": "Martian Leaves",
       "item.reallyinspace.centuri": "Centuri Rocket",
       "entity.ris.reaguar_alein": "Reaguar Alein",
+      "block.reallyinspace.energy_battery": "Energy Battery",
       "biome.ris.mercfltbiomes": "MercFlatBiome",
       "block.reallyinspace.ch_15_stairs": "CH15 Stairs",
       "block.ris.oxygen_tank": "Oxygen Tank",
@@ -3630,8 +3680,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -3896,6 +3946,7 @@
       "block.rismod.martian_leaves": "Martian Leaves",
       "item.reallyinspace.centuri": "Centuri Rocket",
       "entity.ris.reaguar_alein": "Reaguar Alein",
+      "block.reallyinspace.energy_battery": "Energy Battery",
       "biome.ris.mercfltbiomes": "MercFlatBiome",
       "block.reallyinspace.ch_15_stairs": "CH15 Stairs",
       "block.ris.oxygen_tank": "Oxygen Tank",
@@ -3950,8 +4001,8 @@
       "biome.ris.neptunebiome": "Neptunebiome",
       "block.rismod.martian_planks": "Martian Planks",
       "item.reallyinspace.aek_971_gun": "AEK971",
-      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "block.ris.ch_14_leaves": "CH14 Leaves",
+      "item.rismod.rocket_spawn_egg": "Rocket Spawn Egg",
       "biome.reallyinspace.moonbiome": "Moon biome",
       "block.reallyinspace.ch_15_planks": "CH15 Planks",
       "item.reallyinspace.astroid_belt": "Astroid Rocket",
@@ -4216,6 +4267,7 @@
       "block.rismod.martian_leaves": "Martian Leaves",
       "item.reallyinspace.centuri": "Centuri Rocket",
       "entity.ris.reaguar_alein": "Reaguar Alein",
+      "block.reallyinspace.energy_battery": "Energy Battery",
       "biome.ris.mercfltbiomes": "MercFlatBiome",
       "block.reallyinspace.ch_15_stairs": "CH15 Stairs",
       "block.ris.oxygen_tank": "Oxygen Tank",
@@ -4258,15 +4310,17 @@
   "workspaceSettings": {
     "modid": "reallyinspace",
     "modName": "ReallyInSpace Forge For 1.16x",
-    "version": "1.4.0",
-    "description": "16+ custom dimensions. adding more things soom",
+    "version": "v2.0.0",
+    "description": "Incpmpatibliities: Rats ",
     "author": "Souldbminer \u0026 Help From My Patreons",
-    "websiteURL": "https://github.com/Team-ReallyInSpace/ReallyInSpace",
+    "websiteURL": "https://github.com/TeamRISMod/ReallyInSpace",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "modlogo",
-    "requiredMods": [],
+    "requiredMods": [
+      "shutupexperimentalsettings"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
