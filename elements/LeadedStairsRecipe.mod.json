@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LeadedPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadedPlanks"
+      },
+      {
+        "value": "CUSTOM:LeadedPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadedPlanks"
+      },
+      {
+        "value": "CUSTOM:LeadedPlanks"
+      },
+      {
+        "value": "CUSTOM:LeadedPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LeadedStairs"
+    },
+    "name": "leaded_stairs_recipe",
+    "namespace": "mod"
+  }
+}

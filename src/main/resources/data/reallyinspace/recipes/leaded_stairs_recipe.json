@@ -1,0 +1,33 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:leaded_planks"
+    },
+    "3": {
+      "item": "reallyinspace:leaded_planks"
+    },
+    "4": {
+      "item": "reallyinspace:leaded_planks"
+    },
+    "6": {
+      "item": "reallyinspace:leaded_planks"
+    },
+    "7": {
+      "item": "reallyinspace:leaded_planks"
+    },
+    "8": {
+      "item": "reallyinspace:leaded_planks"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:leaded_stairs",
+    "count": 4
+  }
+}

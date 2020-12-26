@@ -1,0 +1,22 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:diamond_infused_planks"
+    },
+    "1": {
+      "item": "reallyinspace:diamond_infused_planks"
+    },
+    "2": {
+      "item": "reallyinspace:diamond_infused_planks"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:diamond_infused_slab",
+    "count": 6
+  }
+}

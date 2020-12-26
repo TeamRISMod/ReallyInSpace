@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "reallyinspace:blocks/leaded_planks",
+    "top": "reallyinspace:blocks/leaded_planks",
+    "side": "reallyinspace:blocks/leaded_planks"
+  }
+}

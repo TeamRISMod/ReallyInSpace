@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DiamondInfusedWood"
+      },
+      {
+        "value": "CUSTOM:DiamondInfusedLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "diamondinfused_log",
+    "namespace": "forge"
+  }
+}

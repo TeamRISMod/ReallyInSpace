@@ -1,0 +1,13 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:leaded_log"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:leaded_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:sodium_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "reallyinspace:sodium_planks"
+    },
+    "3": {
+      "item": "reallyinspace:sodium_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "reallyinspace:sodium_planks"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:sodium_fence",
+    "count": 3
+  }
+}

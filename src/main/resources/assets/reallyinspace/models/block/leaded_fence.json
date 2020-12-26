@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "reallyinspace:blocks/leaded_planks",
+    "particle": "reallyinspace:blocks/leaded_planks"
+  }
+}

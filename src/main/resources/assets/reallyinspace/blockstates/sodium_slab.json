@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reallyinspace:block/sodium_slab"
+    },
+    "type=top": {
+      "model": "reallyinspace:block/sodium_slab_top"
+    },
+    "type=double": {
+      "model": "reallyinspace:block/sodium_slab_full"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:diamondinfused_log"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:diamond_infused_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "reallyinspace:blocks/sodium_planks",
+    "particle": "reallyinspace:blocks/sodium_planks"
+  }
+}

@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "reallyinspace:oxygen",
-    "reallyinspace:oxygen_flowing"
+    "reallyinspace:oxygen_flowing",
+    "reallyinspace:nitrogen",
+    "reallyinspace:nitrogen_flowing"
   ]
 }

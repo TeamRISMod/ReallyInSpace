@@ -1,0 +1,13 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:sodium_log"
+    }
+  ],
+  "result": {
+    "item": "reallyinspace:sodium_planks",
+    "count": 4
+  }
+}

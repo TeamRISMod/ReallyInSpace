@@ -1,0 +1,33 @@
+{
+  "group": "reallyinspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reallyinspace:diamond_infused_planks"
+    },
+    "3": {
+      "item": "reallyinspace:diamond_infused_planks"
+    },
+    "4": {
+      "item": "reallyinspace:diamond_infused_planks"
+    },
+    "6": {
+      "item": "reallyinspace:diamond_infused_planks"
+    },
+    "7": {
+      "item": "reallyinspace:diamond_infused_planks"
+    },
+    "8": {
+      "item": "reallyinspace:diamond_infused_planks"
+    }
+  },
+  "result": {
+    "item": "reallyinspace:diamond_infused_stairs",
+    "count": 4
+  }
+}

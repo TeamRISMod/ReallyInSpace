@@ -1,0 +1,26 @@
+{
+  "_fv": 15,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Yo u r cold",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Yo u r cold",
+          "x": 187,
+          "y": 91
+        }
+      }
+    ],
+    "baseTexture": "",
+    "displayCondition": {
+      "name": "DisplayFreezeOverlay"
+    }
+  }
+}

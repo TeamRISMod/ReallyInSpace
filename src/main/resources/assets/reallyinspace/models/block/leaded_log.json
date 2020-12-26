@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reallyinspace:blocks/leaded_log_top",
+    "up": "reallyinspace:blocks/leaded_log_top",
+    "north": "reallyinspace:blocks/leaded_log_side",
+    "east": "reallyinspace:blocks/leaded_log_side",
+    "south": "reallyinspace:blocks/leaded_log_side",
+    "west": "reallyinspace:blocks/leaded_log_side",
+    "particle": "reallyinspace:blocks/leaded_log_top"
+  }
+}

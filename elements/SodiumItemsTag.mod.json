@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SodiumWood"
+      },
+      {
+        "value": "CUSTOM:SodiumLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "sodium_log",
+    "namespace": "forge"
+  }
+}

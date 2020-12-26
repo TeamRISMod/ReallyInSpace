@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LeadedWood"
+      },
+      {
+        "value": "CUSTOM:LeadedLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "leaded_log",
+    "namespace": "forge"
+  }
+}

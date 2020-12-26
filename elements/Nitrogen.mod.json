@@ -1,0 +1,21 @@
+{
+  "_fv": 15,
+  "_type": "fluid",
+  "definition": {
+    "name": "Nitrogen",
+    "textureStill": "nf",
+    "textureFlowing": "nf",
+    "luminosity": 0,
+    "density": -500,
+    "viscosity": 5,
+    "isGas": true,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:RIS"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

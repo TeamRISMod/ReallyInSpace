@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SodiumLog"
+      },
+      {
+        "value": "CUSTOM:SodiumLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SodiumLog"
+      },
+      {
+        "value": "CUSTOM:SodiumLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SodiumWood"
+    },
+    "name": "sodium_wood_recipe",
+    "namespace": "mod"
+  }
+}
