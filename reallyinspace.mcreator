@@ -4901,16 +4901,14 @@
     "modid": "reallyinspace",
     "modName": "ReallyInSpace Forge For 1.16x",
     "version": "v2.0.0",
-    "description": "Incpmpatibliities: Rats ",
+    "description": "Incpmpatibliities: none",
     "author": "Souldbminer \u0026 Help From My Patreons",
     "websiteURL": "https://github.com/TeamRISMod/ReallyInSpace",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "modlogo",
-    "requiredMods": [
-      "shutupexperimentalsettings"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],

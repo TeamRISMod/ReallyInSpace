@@ -11,7 +11,7 @@ displayURL="https://github.com/TeamRISMod/ReallyInSpace"
 logoFile="logo.png"
 authors="Souldbminer & Help From My Patreons"
 description='''
-Incpmpatibliities: Rats 
+Incpmpatibliities: none
 '''
 
 [[dependencies.reallyinspace]]
@@ -22,11 +22,5 @@ Incpmpatibliities: Rats
     side="BOTH"
 
 
-[[dependencies.reallyinspace]]
-    modId="shutupexperimentalsettings"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 
