@@ -1,6 +1,6 @@
 package org.souldbminer.reallyinspace.procedures;
 
-import org.souldbminer.reallyinspace.gui.PannelGui;
+import org.souldbminer.reallyinspace.gui.Pannel2Gui;
 import org.souldbminer.reallyinspace.ReallyinspaceModElements;
 import org.souldbminer.reallyinspace.ReallyinspaceMod;
 
@@ -66,12 +66,12 @@ public class Guitrigger2Procedure extends ReallyinspaceModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Pannel");
+						return new StringTextComponent("Pannel2");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new PannelGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new Pannel2Gui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}
