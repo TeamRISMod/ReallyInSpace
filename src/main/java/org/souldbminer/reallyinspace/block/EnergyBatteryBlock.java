@@ -1,64 +1,20 @@
 
 package org.souldbminer.reallyinspace.block;
 
-import org.souldbminer.reallyinspace.itemgroup.RISItemGroup;
-import org.souldbminer.reallyinspace.ReallyinspaceModElements;
-
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.items.wrapper.SidedInvWrapper;
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.energy.EnergyStorage;
-import net.minecraftforge.energy.CapabilityEnergy;
-import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.common.capabilities.Capability;
-
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.Direction;
-import net.minecraft.tileentity.TileEntityType;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.tileentity.LockableLootTileEntity;
-import net.minecraft.network.play.server.SUpdateTileEntityPacket;
-import net.minecraft.network.NetworkManager;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
-import net.minecraft.inventory.container.INamedContainerProvider;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.inventory.container.ChestContainer;
-import net.minecraft.inventory.ItemStackHelper;
-import net.minecraft.inventory.InventoryHelper;
-import net.minecraft.inventory.ISidedInventory;
-import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import javax.annotation.Nullable;
-
-import java.util.stream.IntStream;
-import java.util.List;
-import java.util.Collections;
 
 @ReallyinspaceModElements.ModElement.Tag
 public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
+
 	@ObjectHolder("reallyinspace:energy_battery")
 	public static final Block block = null;
+
 	@ObjectHolder("reallyinspace:energy_battery")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
+
 	public EnergyBatteryBlock(ReallyinspaceModElements instance) {
 		super(instance, 269);
+
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -67,6 +23,7 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(RISItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
@@ -75,13 +32,18 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 	}
 
 	public static class CustomBlock extends Block {
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(
+
+					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+
 			setRegistryName("energy_battery");
 		}
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -119,6 +81,7 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 					InventoryHelper.dropInventoryItems(world, pos, (CustomTileEntity) tileentity);
 					world.updateComparatorOutputLevel(pos, this);
 				}
+
 				super.onReplaced(state, world, pos, newState, isMoving);
 			}
 		}
@@ -136,10 +99,13 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 			else
 				return 0;
 		}
+
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
+
 		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -147,21 +113,28 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 		@Override
 		public void read(BlockState blockState, CompoundNBT compound) {
 			super.read(blockState, compound);
+
 			if (!this.checkLootAndRead(compound)) {
 				this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
 			}
+
 			ItemStackHelper.loadAllItems(compound, this.stacks);
+
 			if (compound.get("energyStorage") != null)
 				CapabilityEnergy.ENERGY.readNBT(energyStorage, null, compound.get("energyStorage"));
+
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT compound) {
 			super.write(compound);
+
 			if (!this.checkLootAndWrite(compound)) {
 				ItemStackHelper.saveAllItems(compound, this.stacks);
 			}
+
 			compound.put("energyStorage", CapabilityEnergy.ENERGY.writeNBT(energyStorage, null));
+
 			return compound;
 		}
 
@@ -242,7 +215,9 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 		public boolean canExtractItem(int index, ItemStack stack, Direction direction) {
 			return true;
 		}
+
 		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
+
 		private final EnergyStorage energyStorage = new EnergyStorage(400000, 200, 200, 0) {
 			@Override
 			public int receiveEnergy(int maxReceive, boolean simulate) {
@@ -264,12 +239,15 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 				return retval;
 			}
 		};
+
 		@Override
 		public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
 			if (!this.removed && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
 				return handlers[facing.ordinal()].cast();
+
 			if (!this.removed && capability == CapabilityEnergy.ENERGY)
 				return LazyOptional.of(() -> energyStorage).cast();
+
 			return super.getCapability(capability, facing);
 		}
 
@@ -279,5 +257,7 @@ public class EnergyBatteryBlock extends ReallyinspaceModElements.ModElement {
 			for (LazyOptional<? extends IItemHandler> handler : handlers)
 				handler.invalidate();
 		}
+
 	}
+
 }

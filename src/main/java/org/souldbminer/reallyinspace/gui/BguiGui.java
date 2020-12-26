@@ -1,59 +1,27 @@
 
 package org.souldbminer.reallyinspace.gui;
 
-import org.souldbminer.reallyinspace.ReallyinspaceModElements;
 import org.souldbminer.reallyinspace.ReallyinspaceMod;
-
-import org.lwjgl.opengl.GL11;
-
-import net.minecraftforge.items.ItemStackHandler;
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.fml.network.NetworkEvent;
-import net.minecraftforge.fml.network.IContainerFactory;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.DeferredWorkQueue;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.energy.CapabilityEnergy;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.inventory.container.Slot;
-import net.minecraft.inventory.container.ContainerType;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.widget.button.Button;
-import net.minecraft.client.gui.screen.inventory.ContainerScreen;
-import net.minecraft.client.gui.ScreenManager;
-import net.minecraft.client.Minecraft;
-
-import java.util.function.Supplier;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
-import java.util.HashMap;
-
-import com.mojang.blaze3d.matrix.MatrixStack;
 
 @ReallyinspaceModElements.ModElement.Tag
 public class BguiGui extends ReallyinspaceModElements.ModElement {
+
 	public static HashMap guistate = new HashMap();
+
 	private static ContainerType<GuiContainerMod> containerType = null;
+
 	public BguiGui(ReallyinspaceModElements instance) {
 		super(instance, 271);
+
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
 				GUISlotChangedMessage::handler);
+
 		containerType = new ContainerType<>(new GuiContainerModFactory());
+
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
+
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -65,24 +33,35 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
 		event.getRegistry().register(containerType.setRegistryName("bgui"));
 	}
+
 	public static class GuiContainerModFactory implements IContainerFactory {
+
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
 			return new GuiContainerMod(id, inv, extraData);
 		}
+
 	}
 
 	public static class GuiContainerMod extends Container implements Supplier<Map<Integer, Slot>> {
+
 		private World world;
 		private PlayerEntity entity;
 		private int x, y, z;
+
 		private IItemHandler internal;
+
 		private Map<Integer, Slot> customSlots = new HashMap<>();
+
 		private boolean bound = false;
+
 		public GuiContainerMod(int id, PlayerInventory inv, PacketBuffer extraData) {
 			super(containerType, id);
+
 			this.entity = inv.player;
 			this.world = inv.player.world;
+
 			this.internal = new ItemStackHandler(0);
+
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -90,6 +69,7 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 				this.y = pos.getY();
 				this.z = pos.getZ();
 			}
+
 		}
 
 		public Map<Integer, Slot> get() {
@@ -100,13 +80,16 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 		public boolean canInteractWith(PlayerEntity player) {
 			return true;
 		}
+
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public static class GuiWindow extends ContainerScreen<GuiContainerMod> {
+
 		private World world;
 		private int x, y, z;
 		private PlayerEntity entity;
+
 		public GuiWindow(GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 			super(container, inventory, text);
 			this.world = container.world;
@@ -117,21 +100,26 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
+
 		private static final ResourceLocation texture = new ResourceLocation("reallyinspace:textures/bgui.png");
+
 		@Override
 		public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground(ms);
 			super.render(ms, mouseX, mouseY, partialTicks);
 			this.renderHoveredTooltip(ms, mouseX, mouseY);
+
 		}
 
 		@Override
 		protected void drawGuiContainerBackgroundLayer(MatrixStack ms, float par1, int par2, int par3) {
 			GL11.glColor4f(1, 1, 1, 1);
+
 			Minecraft.getInstance().getTextureManager().bindTexture(texture);
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+
 		}
 
 		@Override
@@ -140,6 +128,7 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 				this.minecraft.player.closeScreen();
 				return true;
 			}
+
 			return super.keyPressed(key, b, c);
 		}
 
@@ -171,16 +160,22 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 		@Override
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
+
 			minecraft.keyboardListener.enableRepeatEvents(true);
+
 			this.addButton(new Button(this.guiLeft + 43, this.guiTop + 57, 80, 20, new StringTextComponent("Send Energy"), e -> {
 				ReallyinspaceMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
+
 				handleButtonAction(entity, 0, x, y, z);
 			}));
 		}
+
 	}
 
 	public static class ButtonPressedMessage {
+
 		int buttonID, x, y, z;
+
 		public ButtonPressedMessage(PacketBuffer buffer) {
 			this.buttonID = buffer.readInt();
 			this.x = buffer.readInt();
@@ -210,14 +205,18 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 				int x = message.x;
 				int y = message.y;
 				int z = message.z;
+
 				handleButtonAction(entity, buttonID, x, y, z);
 			});
 			context.setPacketHandled(true);
 		}
+
 	}
 
 	public static class GUISlotChangedMessage {
+
 		int slotID, x, y, z, changeType, meta;
+
 		public GUISlotChangedMessage(int slotID, int x, int y, int z, int changeType, int meta) {
 			this.slotID = slotID;
 			this.x = x;
@@ -255,22 +254,30 @@ public class BguiGui extends ReallyinspaceModElements.ModElement {
 				int x = message.x;
 				int y = message.y;
 				int z = message.z;
+
 				handleSlotAction(entity, slotID, changeType, meta, x, y, z);
 			});
 			context.setPacketHandled(true);
 		}
+
 	}
+
 	private static void handleButtonAction(PlayerEntity entity, int buttonID, int x, int y, int z) {
 		World world = entity.world;
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
 		World world = entity.world;
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+
 	}
+
 }
